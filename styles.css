@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lavender;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Georgia', serif;
+    font-size: 24px;
+    color: turquoise;
+    background-image: url(Image-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: darkslateblue;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+}
+h2{
+    font-size: 26px;
+    color: black;
+}
+
+#about{
+    font-family: 'Courier New', monospace;
+    font-size: 18px;
+    color: darkblue;
+}
+
+#education{
+    font-family: 'Times New Roman', serif;
+    font-size: 18px;
+    color: darkgreen;
+}
+
+#interests{
+    font-family: 'Verdana', sans-serif;
+    font-size: 18px;
+    color: darkred;
+}
+
+#projects{
+    font-family: 'Tahoma', sans-serif;
+    font-size: 18px;
+    color: darkgoldenrod;
+}
+
+#contact form{
+    font-family: 'Helvetica', sans-serif;
+    font-size: 18px;
+    color: navy;
+}
+
+form {
+    border: 2px solid darkslateblue;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid darkslateblue;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: darkslateblue;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+form button:hover {
+    background-color: slateblue;
+}
+
